@@ -1,0 +1,494 @@
+{
+ "Version" : 1,
+ "Sequence" : {
+  "BackgroundColor" : [0.599093,0.596480,0.596480],
+  "DefaultViewpoint" : "Root/NewSpawnArea0",
+  "Framerate" : 24,
+  "ExportStart" : 0,
+  "ExportEnd" : 126000,
+  "CameraResolution" : [
+   1920,
+   1080],
+  "RootLayer" : {
+   "Name" : "Root",
+   "Visible" : true,
+   "Locked" : false,
+   "Collapsed" : false,
+   "BBoxVisible" : false,
+   "Opacity" : 1.000000,
+   "Type" : "Group",
+   "IsModelTopLayer" : false,
+   "KeepAlive" : {
+    "Type" : "None"
+   },
+   "Transform" : {
+    "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+    "Scale" : 1.0000000000000000e+00,
+    "Flip" : "N",
+    "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+   },
+   "Pivot" : {
+    "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+    "Scale" : 1.0000000000000000e+00,
+    "Flip" : "N",
+    "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+   },
+   "Animation" : {
+    "Duration" : "45360000",
+    "Timeline" : true,
+    "StartOffset" : "0",
+    "MaxRepeatCount" : "0",
+    "Keys" : {
+     "Visibility" : [
+      {
+       "Time" : "0",
+       "Value" : true,
+       "Interpolation" : "None"
+      }],
+     "Offset" : [
+      {
+       "Time" : "0",
+       "Value" : 0,
+       "Interpolation" : "None"
+      }]
+    }
+   },
+   "Implementation" : {
+    "Children" : [
+     {
+      "Name" : "NewSpawnArea0",
+      "Visible" : false,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Viewpoint",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [1.0401795913772119e-01,1.9571025897808642e-02,-6.1679447963052542e-03,9.9436371392922440e-01],
+       "Scale" : 2.6172526795685824e+00,
+       "Flip" : "N",
+       "Translation" : [-2.0550971369546860e-02,1.7500270250277008e+00,1.9344080279103482e+00]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Version" : 1,
+       "Color" : [0.634842,0.884973,0.722261],
+       "Sphere" : [0.000000,1.000000,0.000000,2.000000],
+       "AllowTranslationX" : true,
+       "AllowTranslationY" : true,
+       "AllowTranslationZ" : true,
+       "DataFileOffset" : "0000000000000008",
+       "Exporting" : true,
+       "ShowingVolume" : false,
+       "TypeStr" : "EyeLevel"
+      }
+     },
+     {
+      "Name" : "Head",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Paint",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Framerate" : 24,
+       "MaxRepeatCount" : 1,
+       "Drawings" : [
+        {
+         "BoundingBox" : [-0.161047,0.170407,1.430279,1.913014,0.029230,0.316371],
+         "DataFileOffset" : "00000000000c001c"
+        }],
+       "Frames" : [
+        "0"]
+      }
+     },
+     {
+      "Name" : "PrestonBlairImages.jpg",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Picture",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [2.9177587434834666e-02,-2.5227483778973941e-01,-5.5119913232161991e-02,-9.6564375924816193e-01],
+       "Scale" : 4.9431381594199547e-01,
+       "Flip" : "N",
+       "Translation" : [-1.5228651549937757e+00,2.8802981057702630e+00,2.8294520302168474e-01]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Type" : "2D",
+       "ViewerLocked" : false,
+       "DataFileOffset" : "00000000000c36c0",
+       "ImportFilePath" : "C:/Users/Anna/OneDrive/Desktop/all stuff on desktop/QuillCodeStuff/pythonQuillVisemeHelper/Papagayo Helper/PrestonBlairImages/PrestonBlairImages.jpg"
+      }
+     },
+     {
+      "Name" : "prestonBlairOverview.jpg",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Picture",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [-5.2359700549108004e-02,2.9500151315318734e-01,6.4108455918770457e-02,9.5190476145224157e-01],
+       "Scale" : 6.5123614203170765e-01,
+       "Flip" : "N",
+       "Translation" : [-1.3783525538656258e+00,1.7100816896320532e+00,3.8008857293489767e-01]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Type" : "2D",
+       "ViewerLocked" : false,
+       "DataFileOffset" : "000000000010b740",
+       "ImportFilePath" : "C:/Users/Anna/OneDrive/Desktop/all stuff on desktop/QuillCodeStuff/pythonQuillVisemeHelper/PrestonBlairImages/prestonBlairOverview.jpg"
+      }
+     },
+     {
+      "Name" : "Mouth-text-ref",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Paint",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [-2.5194493993111793e-02,-1.9392936280756463e-02,9.8845064898724321e-03,9.9944557031700998e-01],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [-8.3065274921348450e-02,-1.8867623112877574e-01,9.0266398532982111e-03]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [1.5210344642400747e-01,1.5005294680595398e+00,4.3891255557537090e-01]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         },
+         {
+          "Time" : "5250",
+          "Value" : false,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Framerate" : 24,
+       "MaxRepeatCount" : 1,
+       "Drawings" : [
+        {
+         "BoundingBox" : [-0.109597,0.225798,1.324946,1.558582,0.258219,0.370461],
+         "DataFileOffset" : "000000000025ea06"
+        },
+        {
+         "BoundingBox" : [-0.046646,0.178234,1.309646,1.565073,0.277052,0.365737],
+         "DataFileOffset" : "000000000026069a"
+        },
+        {
+         "BoundingBox" : [-0.067335,0.190094,1.313725,1.571501,0.309713,0.401714],
+         "DataFileOffset" : "00000000002617b6"
+        },
+        {
+         "BoundingBox" : [-0.082830,0.175291,1.306026,1.566391,0.322877,0.413615],
+         "DataFileOffset" : "0000000000262c3a"
+        },
+        {
+         "BoundingBox" : [-0.114507,0.295087,1.327811,1.586375,0.306182,0.457246],
+         "DataFileOffset" : "00000000002639be"
+        },
+        {
+         "BoundingBox" : [-0.066802,0.245255,1.310054,1.599319,0.332507,0.464437],
+         "DataFileOffset" : "0000000000265d02"
+        },
+        {
+         "BoundingBox" : [-0.108663,0.611580,1.254372,1.635148,0.266230,0.496434],
+         "DataFileOffset" : "00000000002674d6"
+        },
+        {
+         "BoundingBox" : [-0.084093,0.287793,1.364653,1.713704,0.347980,0.501210],
+         "DataFileOffset" : "000000000026a44a"
+        },
+        {
+         "BoundingBox" : [-0.097795,0.402002,1.357541,1.643518,0.358890,0.518935],
+         "DataFileOffset" : "000000000026bf9e"
+        },
+        {
+         "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+         "DataFileOffset" : "000000000026ed7a"
+        },
+        {
+         "BoundingBox" : [-0.098550,0.123335,1.319886,1.557095,0.359695,0.468422],
+         "DataFileOffset" : "000000000026ed7e"
+        }],
+       "Frames" : [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "10",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"]
+      }
+     },
+     {
+      "Name" : "MyMouth",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Paint",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [-1.0198436677455899e-02,1.5621914267539978e+00,2.3981641232967382e-01]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         },
+         {
+          "Time" : "45762150",
+          "Value" : false,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Framerate" : 24,
+       "MaxRepeatCount" : 1,
+       "Drawings" : [
+        {
+         "BoundingBox" : [-0.115060,0.104395,1.482020,1.642994,0.166738,0.316621],
+         "DataFileOffset" : "000000000026f74a"
+        },
+        {
+         "BoundingBox" : [-0.115113,0.104395,1.492573,1.638513,0.172363,0.316621],
+         "DataFileOffset" : "0000000000271e66"
+        },
+        {
+         "BoundingBox" : [-0.117053,0.085491,1.485335,1.655313,0.167099,0.309602],
+         "DataFileOffset" : "000000000027492a"
+        },
+        {
+         "BoundingBox" : [-0.088849,0.064404,1.499640,1.641207,0.207485,0.305366],
+         "DataFileOffset" : "0000000000276ece"
+        },
+        {
+         "BoundingBox" : [-0.088849,0.064404,1.499640,1.627048,0.207485,0.302494],
+         "DataFileOffset" : "0000000000279472"
+        },
+        {
+         "BoundingBox" : [-0.115060,0.103898,1.482020,1.642748,0.166738,0.316621],
+         "DataFileOffset" : "000000000027c116"
+        },
+        {
+         "BoundingBox" : [-0.124807,0.106530,1.493205,1.634299,0.172363,0.314170],
+         "DataFileOffset" : "000000000027ea1a"
+        },
+        {
+         "BoundingBox" : [-0.125976,0.105621,1.493205,1.631178,0.161123,0.314317],
+         "DataFileOffset" : "0000000000280b36"
+        },
+        {
+         "BoundingBox" : [-0.117353,0.107117,1.492573,1.643011,0.172363,0.316621],
+         "DataFileOffset" : "00000000002828aa"
+        },
+        {
+         "BoundingBox" : [-0.112603,0.092206,1.493205,1.631178,0.164623,0.315010],
+         "DataFileOffset" : "0000000000284d6e"
+        }],
+       "Frames" : [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"]
+      }
+     }
+    ]
+   }
+  }
+ }
+}
