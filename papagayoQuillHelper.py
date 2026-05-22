@@ -65,6 +65,7 @@ def find_mouth(json_data, mouthName):
 def edit_quill_json(json_data, phoneme_tuples, mouth):
     """
     Creates a new layer that has a series of frames based off the original mouth layer and the Papagayo data
+    There is no need to re-do the drawings! They essentially serve as the indices for the frames. So you only need the original drawings, no more than 10
     """
     #first, create a new layer by making a copy of mouth and adding to json with a new name? 
 
@@ -72,9 +73,9 @@ def edit_quill_json(json_data, phoneme_tuples, mouth):
     new_mouth["Name"] = "lip-sync-output"
 
     orig_drawings = mouth["Implementation"]["Drawings"] 
+    new_drawings = copy.deepcopy(orig_drawings)
     orig_frames = mouth["Implementation"]["Frames"] 
     
-    new_drawings = []
     new_frames = []
 
     for i in range(len(phoneme_tuples)): #stop on the penultimate one; will have a different process for the very last one (no start/end)
@@ -91,11 +92,9 @@ def edit_quill_json(json_data, phoneme_tuples, mouth):
             next_frame = phoneme_tuples[i+1][0] 
             num_frames =  next_frame - frame_start #how many times to repeat this drawing and frame 
         
-        #now define the drawing and frame from the original!
-        draw_copy = copy.deepcopy(orig_drawings[phoneme_num])
+        #now define the frame from the original frames list
         frame_copy = copy.deepcopy(orig_frames[phoneme_num])
         for f in range(num_frames):
-            new_drawings.append(draw_copy)
             new_frames.append(frame_copy)
     #set new_mouth's drawings and frames to the new lists
     new_mouth["Implementation"]["Drawings"] = new_drawings
