@@ -1,3 +1,29 @@
+The following two, very similar tools are meant to help with lip syncing in the VR software [Quill](https://quill.art/).
+
+# Papagayo Helper for Quill
+This is designed to work with .dat output from [Papagayo](https://www.lostmarble.com/papagayo/)
+
+You will need to have run Papagayo already and downloaded a .dat file. Please see sample documents in the folder.
+
+Please also see the sample Quill file for guidance. You will need to have a single paint layer consisting of 10 ordered frames that have the Preston Blair basic mouth shapes in the following order (also reflected in the sample doc): <br><br>
+    AI<br>
+    E<br>
+    O<br>
+    U<br>
+    WQ<br>
+    L<br>
+    FV<br>
+    MBP<br>
+    etc<br>
+    rest<br><br>
+
+You can name your paint layer MyMouth (the default), or some other name that will be easy to retype and unique to your Quill project.
+
+Note that this script will overwrite the contents of your Quill.json in your Quill project folder, so I highly recommend having a backup before you start.
+
+You can run the tool by double clicking the .exe file, which will open a simple command line application.
+
+# Rhubarb Helper for Quill
 You can download the .exe file to run the command line application directly. If you run the .exe, you don't need to have Python installed or have any command line experience. 
 
 Please note (as I explain in the app) that you'll have to use Rhubarb Lip Sync from the command line separately to produce the text output you'll use in the Quill Viseme Helper: 
@@ -33,6 +59,6 @@ Now you can use the Rhubarb output (output.txt, or whatever you named it) in the
 
 When you download and then double-click the quillVisemeHelper.py file, it will open up a simple command line application. That app includes instructions, so I'm not providing additional guidelines here at this time.
 
-I have not tested this extensively, so please reach out if you are having trouble and I can troubleshoot and/or make modifications! If a Quill template or video instructions would be helpful, please let me know and I can put something simple together. I may eventually create a version that uses Daniel Wolf's Rhubarb silently if there is interest so that you don't have to use a command prompt. 
+I have not tested this extensively, so please reach out if you are having trouble and I can troubleshoot and/or make modifications! If a Quill template or video instructions would be helpful, please let me know and I can put something simple together. 
 
-And if anyone would like me to update this so it can handle Papagayo output as well, please contact me. 
+This current Rhubarb version uses SPANS not frame by frame. If you would like a version that uses frame by frame, let me know and I can update.
